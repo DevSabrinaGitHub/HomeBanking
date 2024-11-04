@@ -1,0 +1,77 @@
+{
+	"nombre": "Demo",
+	"password": "",
+	"saldo": 100000,
+	"historialTransferencias": [
+		{
+			"fecha": "2024-08-15",
+			"monto": 200,
+			"esIngreso": true,
+			"emisor": "Proveedor A",
+			"receptor": "Demo",
+			"motivo": "Pago de servicios",
+			"id": "1"
+		},
+		{
+			"fecha": "2024-08-20",
+			"monto": 150,
+			"esIngreso": true,
+			"emisor": "Proveedor B",
+			"receptor": "Demo",
+			"motivo": "Compra de material",
+			"id": "0"
+		}
+	],
+	"historialPagos": [
+		{
+			"fecha": "2024-08-21",
+			"numero": "14231",
+			"monto": 100,
+			"metodo": "Tarjeta de crédito",
+			"id": "1"
+		},
+		{
+			"fecha": "2024-08-22",
+			"numero": "13521",
+			"monto": 50,
+			"metodo": "Transferencia bancaria",
+			"id": "0"
+		}
+	],
+	"historialPrestamos": [
+		{
+			"fecha": "2024-08-21",
+			"tipo": "Préstamo Personal",
+			"monto": 25000,
+			"tasaInteres": 5,
+			"plazo": 11,
+			"id": "0"
+		}
+	],
+		"tarjetas": [
+		{
+			"numero": "1122 3344 5566 7788",
+			"tipo": "credito",
+			"cvc": "123",
+			"expiracion": "09/28"
+		},
+		{
+			"numero": "2233 4455 6677 8899",
+			"tipo": "debito",
+			"cvc": "246",
+			"expiracion": "09/28"
+		},
+		{
+			"numero": "5566 7788 9900 1122",
+			"tipo": "credito",
+			"cvc": "547",
+			"expiracion": "09/28"
+		},
+		{
+			"numero": "7788 9900 1122 3344",
+			"tipo": "debito",
+			"cvc": "063",
+			"expiracion": "09/28"
+		}
+	]
+}

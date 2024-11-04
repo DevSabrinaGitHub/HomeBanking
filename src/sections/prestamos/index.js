@@ -1,0 +1,1 @@
+export { SolicitarPrestamo } from './Prestamos';
